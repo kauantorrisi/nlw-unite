@@ -73,7 +73,7 @@ fieldset button {
 }
 
 fieldset button:hover {
-  color: #f37c37;
+  background-color: #f37c37;
   cursor: pointer;
 }
 
