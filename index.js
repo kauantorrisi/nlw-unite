@@ -88,6 +88,7 @@ const criarNovoParticipante = (participante) => {
     </td>
     <td>${dataInscricao}</td>
     <td>${dataCheckIn}</td>
+    <td><ion-icon name="trash-outline" onclick="excluirParticipante(event)" data-email="${participante.email}"></ion-icon></td>
 </tr>
       `;
 };
@@ -154,3 +155,23 @@ const fazerCheckIn = (event) => {
 
   atualizarLista(participantes);
 };
+
+function excluirParticipante(event) {
+  const mensagemConfirmacao = "Tem certeza que deseja excluir o participante?";
+
+  if (confirm(mensagemConfirmacao) == false) {
+    return;
+  }
+
+  let participante = participantes.find(
+    (p) => p.email == event.target.dataset.email
+  );
+
+  let index = participantes.findIndex(p => p.email == participante.email);
+
+  if (index > -1) { 
+    participantes.splice(index, 1); 
+  }
+
+  atualizarLista(participantes);
+}

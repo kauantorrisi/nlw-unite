@@ -126,6 +126,15 @@ tbody td button {
   color: #9ff9cc;
 }
 
+tbody td ion-icon {
+  font-size: 20px;
+}
+
+tbody td ion-icon:hover {
+  cursor: pointer;
+  color: rgb(227, 69, 69);
+}
+
 tbody td button:hover {
   text-decoration: underline;
   cursor: pointer;
