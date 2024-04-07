@@ -31,7 +31,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - JavaScript
 
 ## Features implementadas por mim:
-[X] - Permitir a exclusão de um participante do evento.
+([X]) - Permitir a exclusão de um participante do evento.
 
 ## Projeto
 
