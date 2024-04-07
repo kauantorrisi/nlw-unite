@@ -30,6 +30,9 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - CSS
 - JavaScript
 
+## Features implementadas por mim:
+[X] - Permitir a exclusão de um participante do evento.
+
 ## Projeto
 
 Nesse projeto desenvolvi a versão simplificada de um sistema de check-in para eventos presenciais.
