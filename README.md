@@ -36,3 +36,5 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 ## Projeto
 
 Nesse projeto desenvolvi a versão simplificada de um sistema de check-in para eventos presenciais.
+
+Você pode acessar o projeto através desse link: https://kauantorrisi.github.io/nlw-unite/
